@@ -1,0 +1,20 @@
+.container {
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.contact {
+    margin-top: 1.5em;
+}
+
+p > a {
+    color: black;
+}
+
+h1 > a {
+    color: black;
+}

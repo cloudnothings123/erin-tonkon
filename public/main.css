@@ -1,0 +1,58 @@
+.container {
+    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    color: black;
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.contact {
+    margin-top: 1.5em;
+}
+
+p > a {
+    color: black;
+}
+
+h1 > a {
+    color: black;
+}
+
+.discography-word {
+    margin-top: 1.5em;
+}
+
+.discography {
+    margin-top: 2em;
+}
+
+img {
+    margin-bottom: 1em;
+}
+
+.hover-text {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hover-area:hover .hover-text {
+    display: block;
+}
+
+.hover-area:hover img {
+    opacity: 25%;
+}
