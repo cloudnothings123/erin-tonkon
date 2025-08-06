@@ -1,20 +1,35 @@
+body {
+  background-color: #eb9dae !important;
+}
+
 .container {
-    font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
-    background: white;
+    font-family: 'Geist Mono', Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     display: flex;
     flex-direction: column;
     padding-top: 2em;
 }
 
-.contact {
-    margin-top: 1.5em;
+.full-width-line {
+  width: 100%; /* Ensures the div takes up the full width of its parent */
+  border-bottom: 1px solid black; /* Creates a 1px solid black line at the bottom */
+  box-sizing: border-box; /* Includes padding and border in the element's total width */
 }
 
-p > a {
+h1 {
+  font-size: 4rem !important;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+p > a,
+p > a:hover {
     color: black;
 }
 
-h1 > a {
+h1 > a,
+h1 > a:hover {
     color: black;
 }
