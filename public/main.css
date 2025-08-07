@@ -24,7 +24,7 @@ h1 {
 }
 
 .contact {
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .border-right {
@@ -39,6 +39,12 @@ p > a:hover {
 h1 > a,
 h1 > a:hover {
     color: black;
+    font-family: 'Bebas Neue', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+}
+
+.jobs {
+  margin-top: -.5em;
 }
 
 .discography-word {
@@ -76,6 +82,12 @@ img {
     opacity: 25%;
 }
 
+@media (max-width: 375px) {
+  h3.jobs {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 390px) and (max-width: 400px) {
   .container {
     padding-left: 15px !important;
@@ -84,7 +96,13 @@ img {
 
 @media (min-width: 400px) and (max-width: 750px) {
   .container {
-    padding-left: 15px !important;
+    padding-left: 25px !important;
+  }
+}
+
+@media (min-width: 429px) and (max-width: 431px) {
+  .container {
+    padding-left: 30px !important;
   }
 }
 

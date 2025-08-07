@@ -8,6 +8,7 @@ const logger = require('morgan')
 //setting location of routers
 const mainRoutes = require('./routes/main')
 const contactRoutes = require('./routes/contact')
+const reelRoutes = require('./routes/reel')
 //recognizing dotenv file
 require('dotenv').config({path: './config/.env'})
 //setting ejs as the view format
@@ -19,5 +20,6 @@ app.use(express.urlencoded({ extended: true }))
 //telling which route to use when home page is requested
 app.use('/', mainRoutes)
 app.use('/contact', contactRoutes)
+app.use('/reel', reelRoutes)
 //connecting to port
 app.listen(process.env.PORT, () => console.log('Server running'))
